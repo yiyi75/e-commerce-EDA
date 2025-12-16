@@ -1,5 +1,5 @@
 ## E-commerce Conversion Funnel Analysis: Customer Journey Optimization
-This [[notebook link]](https://github.com/yiyi75/e-commerce-EDA/blob/main/ecommerce_customer_journey.ipynb) presents a comprehensive analysis of customer behavior patterns in the Udemy e-commerce dataset, with a focus on understanding and optimizing the conversion funnel. 
+This [notebook](https://github.com/yiyi75/e-commerce-EDA/blob/main/ecommerce_customer_journey.ipynb) presents a comprehensive analysis of customer behavior patterns in the Udemy e-commerce dataset, with a focus on understanding and optimizing the conversion funnel. 
 The analysis employs multiple visualization techniques to identify bottlenecks, track performance trends, and provide actionable insights for improving user experience and conversion rates.
 
 ### Key Analytical Components:
