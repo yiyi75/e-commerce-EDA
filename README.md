@@ -1,41 +1,87 @@
-## E-commerce Conversion Funnel Analysis: Customer Journey Optimization
-This [notebook](https://github.com/yiyi75/e-commerce-EDA/blob/main/ecommerce_customer_journey.ipynb) presents a comprehensive analysis of customer behavior patterns in the Udemy e-commerce dataset, with a focus on understanding and optimizing the conversion funnel. 
-The analysis employs multiple visualization techniques to identify bottlenecks, track performance trends, and provide actionable insights for improving user experience and conversion rates.
+## E-commerce Analytics: Customer Journey & Business Intelligence
+This project provides end-to-end e-commerce analytics combining conversion funnel optimization (Python) and strategic business intelligence (SQL) using the Udemy e-commerce dataset containing 472,871 user sessions. 
 
-### Key Analytical Components:
+### **Dataset Overview**
+The dataset represents a multi-year e-commerce business tracking:
+- 472,871 user sessions across multiple traffic channels (paid search, organic, direct)
+- 4 product lines with pricing, cost, and cross-sell data
+- User journey data from landing page through purchase
+- Time period: 3 years of operational data (2012-2015)
 
-**1. Customer Journey Funnel Analysis**
-- **Stage-by-stage conversion tracking**: Quantify user progression from landing page to order completion
-- **Drop-off rate identification**: Pinpoint critical stages where users abandon the conversion process
-- **Conversion rate optimization**: Analyze transitions between each funnel stage to identify optimization opportunities
+### **Tools & Technologies**
+- Python: Pandas, Matplotlib, Seaborn (funnel visualization and cohort analysis)
+- SQL: Complex queries with CTEs, window functions, conditional aggregation
+- Data Processing: Session-level tracking, cohort segmentation, behavioral modeling
 
-**2. Cohort-Based Behavioral Analysis**
-- **Monthly cohort segmentation**: Group users by acquisition month to track retention and conversion patterns
-- **Trend identification**: Analyze how conversion behaviors evolve across different user cohorts over time
-- **Comparative performance**: Evaluate which cohorts demonstrate the strongest conversion characteristics
+### **Analysis Components**:
 
-**3. Multi-dimensional Performance Dashboard**
-- **Multi-funnel visualization**: Horizontal bar charts showing progression rates with drop-off indicators
-- **Stream plot cohort analysis**: Visual representation of conversion distribution across multiple cohorts
-- **Key performance indicators**: Consolidated metrics including overall conversion, cart abandonment, and stage-specific performance
-- **Actionable insights**: Data-driven recommendations for improving specific conversion bottlenecks
-
-### Analytical Objectives:
-1. **Identify Conversion Bottlenecks**: Determine which stages of the purchase process experience the highest drop-off rates
-2. **Track Performance Trends**: Analyze how conversion metrics evolve across different user cohorts
-3. **Provide Optimization Recommendations**: Offer specific, data-backed suggestions for improving conversion rates
-4. **Establish Performance Benchmarks**: Create baseline metrics for ongoing performance monitoring
-
-### Methodology:
-- **Data Processing**: Clean and structure session-level data to track user progression through the conversion funnel
-- **Cohort Construction**: Segment users by acquisition period to enable time-based behavioral analysis
-- **Visual Analytics**: Employ multiple chart types to present the same data from different analytical perspectives
-- **Statistical Analysis**: Calculate conversion rates, drop-off percentages, and cohort performance metrics
-
-### Expected Outcomes:
-- Clear identification of the most critical conversion barriers in the current user journey
-- Understanding of how user conversion behaviors have changed over time
-- Specific recommendations for optimizing the conversion funnel
-- A reusable analytical framework for ongoing e-commerce performance monitoring
+**1. Customer Journey Funnel Analysis (Python)**
+**Analytical Approach**:
+- Stage-by-stage conversion funnel tracking from landing to order completion
+- Monthly cohort analysis to identify behavioral trends over time
+- Multi-dimensional visualizations (horizontal funnels, stream plots, KPI dashboards)
+**Key Findings**:
+- Cart stage represents the largest bottleneck with 63.7% drop-off rate
+- Recent cohorts show 3.5% improvement in Cart View conversions
+- Overall conversion rate: ~3% from initial session to completed order
+- Identified specific drop-off points requiring UX intervention
+**Business Impact**:
+- Quantified high-priority areas for conversion optimization
+- Established baseline metrics for A/B testing priorities
+- Created reusable framework for ongoing funnel monitoring
 
 <img width="4193" height="3128" alt="ecommerce_funnel_dashboard" src="https://github.com/user-attachments/assets/c2a7cf9a-c283-4f27-ab7b-1e65ba983566" />
+
+**2. Strategic Business Intelligence (SQL)**
+
+**Business Questions Answered**:
+1. **Growth Trajectory**
+- Session and order volume growth trended by quarter
+- Session-to-order conversion improved by 5 percentage points since launch
+2. **Revenue Efficiency**
+- Revenue per session increased 2x (from $1.50 to $5.30)
+- Revenue per order growth tracked across all quarters
+3. **Channel Performance**
+- Analyzed 5 traffic channels: paid nonbrand (gsearch, bsearch), brand search, organic, and direct
+- Found business shifting from paid dependency to organic/direct (better margins)
+- Tracked channel-specific conversion rates showing organic and direct outperforming paid channels
+4. **Product Analytics**
+- Identified seasonality patterns: Product 1 peaks in Nov/Dec (holiday), Product 2 in Feb (Valentine's)
+- Monthly revenue and margin tracking across 4 product lines
+5. **Product Page Optimization**
+- Click-through rate from /products page improved from 71.3% to 85.6%
+- Product-to-order conversion increased 72% over analysis period
+6. **Cross-sell Analysis**
+- Product 4 (launched Dec 2014) shows significantly higher cross-sell rates across all primary products
+- Cross-sell strategy validation: Product 4 addition measurably increased order value
+
+**Key SQL Techniques Used**:
+- CTEs for complex multi-stage queries
+- Conditional aggregation with CASE statements
+- Multi-table joins across sessions, orders, and product data
+- Cohort and time-series analysis
+- Channel attribution logic
+
+### **Analytical Methodology**
+**Conversion Funnel (Python):**
+- Data cleaning and session-level funnel construction
+- Cohort segmentation by user acquisition month
+- Multi-perspective visualization (horizontal bars, stream plots, dashboards)
+- Statistical analysis of drop-off rates and conversion metrics
+
+**Business Intelligence (SQL):**
+- Growth metrics: volume trends and efficiency ratios
+- Channel attribution: traffic source performance and conversion
+- Product analytics: revenue, margin, seasonality patterns
+- Behavioral analysis: page flow, cross-sell effectiveness
+
+### **Key Insights & Recommendations**
+Immediate Optimization Priorities:
+- Cart abandonment: 63.7% drop-off requires urgent UX improvements (payment friction, shipping transparency, trust signals)
+- Product 4 expansion: High cross-sell performance suggests opportunity for similar product additions
+- Channel strategy: Continue investing in brand/organic (better margins) while optimizing paid efficiency
+
+Strategic Opportunities:
+- Recent cohorts showing 3.5% conversion improvement validates product/UX changes
+- Seasonal patterns identified can inform inventory and marketing timing
+- Product page CTR gains (71% -> 86%) demonstrate value of multi-product strategy
