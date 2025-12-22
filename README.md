@@ -22,6 +22,7 @@ The dataset represents a multi-year e-commerce business tracking:
 - Stage-by-stage conversion funnel tracking from landing to order completion
 - Monthly cohort analysis to identify behavioral trends over time
 - Multi-dimensional visualizations (horizontal funnels, stream plots, KPI dashboards)
+<img width="4193" height="3128" alt="ecommerce_funnel_dashboard" src="https://github.com/user-attachments/assets/eb65f7f5-2b7b-43e3-91da-9fa1b8a54f2e" />
 
 **Key Findings**:
 - Cart stage represents the largest bottleneck with 63.7% drop-off rate
