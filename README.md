@@ -108,7 +108,7 @@ The dataset represents a multi-year e-commerce business tracking:
 - Collaborative filtering with product similarity matrices
 - Segment-specific budget optimization algorithms
 - Performance validation through holdout testing
-<img width="1790" height="616" alt="1" src="https://github.com/user-attachments/assets/4135d372-425a-461b-bc3f-544709c1e256" />
+<img width="1790" height="616" alt="HIGH-AOV ONE-TIME BUYERS" src="https://github.com/user-attachments/assets/e526fe59-0bd4-41f4-b855-e1c771766016" />
 
 ### **Key Insights & Recommendations**
 **Immediate Optimization Priorities**:
