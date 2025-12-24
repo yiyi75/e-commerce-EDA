@@ -108,6 +108,7 @@ The dataset represents a multi-year e-commerce business tracking:
 - Collaborative filtering with product similarity matrices
 - Segment-specific budget optimization algorithms
 - Performance validation through holdout testing
+<img width="1790" height="616" alt="1" src="https://github.com/user-attachments/assets/4135d372-425a-461b-bc3f-544709c1e256" />
 
 ### **Key Insights & Recommendations**
 **Immediate Optimization Priorities**:
@@ -125,7 +126,7 @@ The dataset represents a multi-year e-commerce business tracking:
 **Strategic Opportunities**:
 - Recent cohorts showing 3.5% conversion improvement validates product/UX changes
 - Behavioral segments provide foundation for personalized customer journeys
-- Product page CTR gains (71% → 86%) demonstrate value of multi-product strategy
+- Product page CTR gains (71% -> 86%) demonstrate value of multi-product strategy
 - Recommendation system enables direct revenue impact through basket size optimization
 
 **Implementation Roadmap**:
